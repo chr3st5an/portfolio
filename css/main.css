@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Montserrat');
+
+
+body {
+    background-image: url("../img/cosmic.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Bangers;
+}
+
+#brand {
+    color: white; 
+}
+
+#suprise .show {
+    display: none;
+    padding: 8px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #845EC2 0%,#D65DB1 20%,#FF6F91 40%,#FF9671 60%,#FFC75F 80%, #F9F871 100%);
+}
+
+#suprise:hover .normal {
+    display: none;
+}
+
+#suprise:hover .show {
+    display: inline;
+}
+
+#source_code .show {
+    display: none;
+    padding: 8px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #845EC2 0%,#2C73D2 20%,#0081CF 40%,#0089BA 60%,#008E9B 80%, #008F7A 100%);
+}
+
+#source_code:hover .normal {
+    display: none;
+}
+
+#source_code:hover .show {
+    display: inline;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
