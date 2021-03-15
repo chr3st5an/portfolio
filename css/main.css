@@ -49,8 +49,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #FFFFFF;
     text-align: center;
     padding-top: 20px;
 }

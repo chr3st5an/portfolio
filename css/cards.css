@@ -69,3 +69,17 @@
 #tiktok .card-title:hover {
     color: #69C9D0;
 }
+
+#spotify:hover {
+    background: #1DB954;
+}
+
+#twitter:hover {
+    background: #1DA1F2;
+    color: #FFFFFF;
+}
+
+#tinder:hover {
+    background: linear-gradient(45deg,  #FD297B 33%, #FF5864 66%, #FF655B 100%);
+    color: #FFFFFF;
+}

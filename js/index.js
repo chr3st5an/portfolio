@@ -23,3 +23,7 @@ function timeShift () {
     console.log("In die Falle bist du gelaufen, lol");
     return window.open("http://111111111111111111111111111111111111111111111111111111111111.com/", "_blank");
 }
+
+function onTinder () {
+    alert("Ich habe doch kein Tinder, defaq. Stalker! Interessiert in mich?");
+}
