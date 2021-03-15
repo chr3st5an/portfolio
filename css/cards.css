@@ -3,6 +3,7 @@ table {
     margin-top: 1%;
     border-collapse: separate;
     border-spacing: 30px;
+    margin-bottom: 4%;
 }
 
 .card {
@@ -43,8 +44,8 @@ table {
 
 /* GitHub */
 #github:hover {
-    background: black;
-    color: white;
+    background: #000000;
+    color: #FFFFFF;
 }
 
 /* TikTok */
