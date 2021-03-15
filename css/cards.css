@@ -1,9 +1,15 @@
+@media (min-width: 750px) {
+    table {
+        margin-bottom: 5%;
+    }
+}
+
 table {
     text-align: center;
     margin-top: 1%;
     border-collapse: separate;
     border-spacing: 30px;
-    margin-bottom: 8%;
+    margin-bottom: 15%;
 }
 
 .card {
