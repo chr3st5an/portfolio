@@ -19,6 +19,7 @@ body {
     padding: 8px;
     border-radius: 20px;
     background: linear-gradient(45deg, #845EC2 0%,#D65DB1 20%,#FF6F91 40%,#FF9671 60%,#FFC75F 80%, #F9F871 100%);
+    box-shadow: #16a7e0 1px 1px 5px;
 }
 
 #suprise:hover .normal {
@@ -34,6 +35,7 @@ body {
     padding: 8px;
     border-radius: 20px;
     background: linear-gradient(45deg, #845EC2 0%,#2C73D2 20%,#0081CF 40%,#0089BA 60%,#008E9B 80%, #008F7A 100%);
+    box-shadow: #16a7e0 1px 1px 5px;
 }
 
 #source_code:hover .normal {

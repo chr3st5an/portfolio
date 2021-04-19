@@ -21,10 +21,13 @@ table {
     }
 }
 
+
+/* Basic Card Settings */
 .card {
     opacity: 0.5;
     transition: 1s ease;
     border-radius: 20px;
+    width: 18rem;
 }
 
 .card:hover {
@@ -35,110 +38,51 @@ table {
     transition: 1s ease;
 }
 
-/* Instagram */
-#instagram .show {
+.card .show {
     display: none;
 }
 
+.card:hover .show {
+    display: inline;
+}
+
+.card:hover .normal {
+    display: none;
+}
+
+
+/* Instagram */
 #instagram:hover {
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     color: white;
 }
 
-#instagram:hover .show {
-    display: inline;
-}
-
-#instagram:hover .normal {
-    display: none;
-}
-
 /* Snapchat */
-#snapchat .show {
-    display: none;
-}
-
 #snapchat:hover {
     background: #FFFC00;
 }
 
-#snapchat:hover .show {
-    display: inline;
-}
-
-#snapchat:hover .normal {
-    display: none;
-}
-
 /* Discord */
-#discord .show {
-    display: none;
-}
-
 #discord:hover {
     background: #7289da;
     color:white;
 }
 
-#discord:hover .show {
-    display: inline;
-}
-
-#discord:hover .normal {
-    display: none;
-}
-
 /* Reddit */
-#reddit .show {
-    display: none;
-}
-
 #reddit:hover {
     background: #FF4301;
 }
 
-#reddit:hover .normal {
-    display: none;
-}
-
-#reddit:hover .show {
-    display: inline;
-}
-
 /* GitHub */
-#github .show {
-    display: none;
-}
-
 #github:hover {
     background: #000000;
     color: #FFFFFF;
 }
 
-#github:hover .show {
-    display: inline;
-}
-
-#github:hover .normal {
-    display: none;
-}
-
 /* TikTok */
-#tiktok .show {
-    display: none;
-}
-
 #tiktok:hover {
     background: #010101;
     color: #EE1D52;
-}
-
-#tiktok:hover .show {
-    display: inline;
-}
-
-#tiktok:hover .normal {
-    display: none;
 }
 
 #tiktok .card-title:hover {
@@ -146,54 +90,24 @@ table {
 }
 
 /* Spotify */
-#spotify .show {
-    display: none;
-}
-
 #spotify:hover {
     background: #1DB954;
 }
 
-#spotify:hover .show {
-    display: inline;
-}
-
-#spotify:hover .normal {
-    display: none;
-}
-
 /* Twitter */
-#twitter .show {
-    display: none;
-}
-
 #twitter:hover {
     background: #1DA1F2;
     color: #FFFFFF;
 }
 
-#twitter:hover .show {
-    display: inline;
-}
-
-#twitter:hover .normal {
-    display: none;
-}
-
-/* Twitter */
-#tinder .show {
-    display:none;
-}
-
+/* Tinder */
 #tinder:hover {
     background: linear-gradient(45deg,  #FD297B 33%, #FF5864 66%, #FF655B 100%);
     color: #FFFFFF;
 }
 
-#tinder:hover .show {
-    display: inline;
-}
-
-#tinder:hover .normal {
-    display: none;
+/* Tellonym */
+#tellonym:hover {
+    background: #ff007f;
+    color: #FFFFFF;
 }
